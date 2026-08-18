@@ -20,35 +20,19 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 ## SaaS/Hosted Platforms
-- **[Abridge](https://www.abridge.com/)**  
-  Enterprise ambient AI documentation platform with strong evidence linking, deep EHR (especially Epic) integration, and large-scale health-system deployments.
 
-- **[Nabla](https://www.nabla.com/)**  
-  Modern ambient scribe focused on speed, usability, and high-quality clinical notes with strong mobile and clinician-friendly workflows.
-
-- **[Suki](https://www.suki.ai/)**  
-  Voice-first clinical assistant that combines ambient documentation with natural-language commands for EHR navigation and workflow automation.
-
-- **[DeepScribe](https://www.deepscribe.ai/)**  
-  Specialty-oriented ambient scribe strong in complex documentation (oncology, cardiology, etc.) with coding suggestions and longitudinal context.
-
-- **[Freed AI](https://www.getfreed.ai/)**  
-  Simple, clinician-friendly AI scribe popular with solo and small practices; emphasizes ease of use and transparent pricing.
-
-- **[Microsoft Dragon Copilot / Nuance DAX](https://www.microsoft.com/)**  
-  Enterprise ambient documentation solution (formerly Nuance DAX) with deep Epic and multi-EHR integration, backed by Microsoft.
-
-- **[Augmedix](https://www.augmedix.com/)**  
-  Ambient medical documentation platform combining AI with human review options for high-accuracy clinical notes.
-
-- **[Notable](https://www.notablehealth.com/)**  
-  Healthcare AI platform that includes ambient documentation and broader automation of clinical and administrative workflows.
-
-- **[Heidi Health](https://www.heidihealth.com/)**  
-  Flexible AI scribe with extensive template support, multi-language capabilities, and options suitable for individual clinicians and groups.
-
-- **[Other notable platforms](https://)**  
-  Additional commercial offerings continue to emerge, often differentiating on specialty depth, pricing model, or specific EHR partnerships.
+| Product | Description | Pricing (Starting) | Free Tier / Trial | Company Size |
+|---|---|---|---|---|
+| [Microsoft Dragon Copilot / Nuance DAX](https://www.microsoft.com/) | Enterprise ambient documentation solution (formerly Nuance DAX) with deep Epic and multi-EHR integration, backed by Microsoft. | $369–$830/provider/month (enterprise, custom quotes) | No free tier; proof-of-concept available on request | ~$19.7B (acquired by Microsoft in 2021) |
+| [Abridge](https://www.abridge.com/) | Enterprise ambient AI documentation platform with strong evidence linking, deep EHR (especially Epic) integration, and large-scale health-system deployments. | ~$208/provider/month (enterprise contracts ~$2,500/yr) | No free tier; enterprise pilot available on request | $5.3B valuation (Series E, Jun 2025); ~$800M+ total funding |
+| [Suki](https://www.suki.ai/) | Voice-first clinical assistant that combines ambient documentation with natural-language commands for EHR navigation and workflow automation. | $299/user/month (Suki Compose); $399/user/month (Suki Assistant) | Free tier: limited to 10 Pro Actions/month | $500M valuation (Series D, Oct 2024); $168M total funding |
+| [Notable](https://www.notablehealth.com/) | Healthcare AI platform that includes ambient documentation and broader automation of clinical and administrative workflows. | Enterprise-only custom pricing (contact sales) | No public free tier; demo available on request | $600M valuation; $116M+ total funding |
+| [Heidi Health](https://www.heidihealth.com/) | Flexible AI scribe with extensive template support, multi-language capabilities, and options suitable for individual clinicians and groups. | $40/user/month (Evidence Plus); $110/user/month (Clinician) | Free tier: unlimited basic consults + 10 Pro Actions/month | $465M valuation (Series B, Oct 2025); $96.6M total funding |
+| [Nabla](https://www.nabla.com/) | Modern ambient scribe focused on speed, usability, and high-quality clinical notes with strong mobile and clinician-friendly workflows. | $119/provider/month (Pro plan) | Free tier: up to 30 encounters/month (unlimited for residents/interns) | ~$180M valuation (Series C, Jun 2025); $120M total funding |
+| [DeepScribe](https://www.deepscribe.ai/) | Specialty-oriented ambient scribe strong in complex documentation (oncology, cardiology, etc.) with coding suggestions and longitudinal context. | ~$350–$750/provider/month (enterprise, custom quotes) | 20 free sessions for new users (trial) | ~$135M valuation (Series B); $60M total funding |
+| [Augmedix](https://www.augmedix.com/) | Ambient medical documentation platform combining AI with human review options for high-accuracy clinical notes. | ~$1,200+/provider/month (enterprise, custom quotes) | No free tier; demo available on request | Acquired by Commure for $139M (2024); ~$52M TTM revenue |
+| [Freed AI](https://www.getfreed.ai/) | Simple, clinician-friendly AI scribe popular with solo and small practices; emphasizes ease of use and transparent pricing. | $39/month (Starter, 40 notes); $79/month (Core, unlimited) | 7-day free trial (unlimited notes, no credit card) | $34M total funding (Series A, Mar 2025); ~$19M ARR |
+| [Other notable platforms](https://) | Additional commercial offerings continue to emerge, often differentiating on specialty depth, pricing model, or specific EHR partnerships. | Varies | Varies | Varies |
 
 ## Open-Source GitHub Projects
 - **[Phlox](https://github.com/bloodworks-io/phlox)**  
