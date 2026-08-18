@@ -35,44 +35,32 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | [Other notable platforms](https://) | Additional commercial offerings continue to emerge, often differentiating on specialty depth, pricing model, or specific EHR partnerships. | Varies | Varies | Varies |
 
 ## Open-Source GitHub Projects
-- **[Phlox](https://github.com/bloodworks-io/phlox)**  
-  Open-source, local-first AI medical agent and ambient scribe with patient management, adaptive note generation, and fully private on-device operation.
 
-- **[scribeHC](https://github.com/trevorpfiz/scribeHC)**  
-  Open-source AI ambient scribe app for healthcare that records encounters and generates SOAP notes from transcripts.
+| Repository | Stars | Description |
+|---|---|---|
+| [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed) | [![Stars](https://img.shields.io/github/stars/maziyarpanahi/openmed?style=social&color=white)](https://github.com/maziyarpanahi/openmed/stargazers) | Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. 2,200+ medical models, 21 clinical NLP tasks. |
+| [stenolabs/stenoai](https://github.com/stenolabs/stenoai) | [![Stars](https://img.shields.io/github/stars/stenolabs/stenoai?style=social&color=white)](https://github.com/stenolabs/stenoai/stargazers) | Privacy-first AI notepad for confidential conversations. Records, transcribes, summarizes, and queries meetings using local AI models. Useful for clinical encounters. |
+| [sammargolis/OpenScribe](https://github.com/sammargolis/OpenScribe) | [![Stars](https://img.shields.io/github/stars/sammargolis/OpenScribe?style=social&color=white)](https://github.com/sammargolis/OpenScribe/stargazers) | Open-source AI scribe that records patient encounters and generates structured clinical notes with local Whisper transcription and no vendor lock-in. |
+| [bloodworks-io/phlox](https://github.com/bloodworks-io/phlox) | [![Stars](https://img.shields.io/github/stars/bloodworks-io/phlox?style=social&color=white)](https://github.com/bloodworks-io/phlox/stargazers) | Open-source, local-first AI medical agent and ambient scribe with patient management, adaptive note generation, and fully private on-device operation. |
+| [1984Doc/AI-Scribe](https://github.com/1984Doc/AI-Scribe) | [![Stars](https://img.shields.io/github/stars/1984Doc/AI-Scribe?style=social&color=white)](https://github.com/1984Doc/AI-Scribe/stargazers) | Medical scribe capable of creating SOAP notes running Whisper and Kobold based on conversation with a patient. |
+| [trevorpfiz/scribeHC](https://github.com/trevorpfiz/scribeHC) | [![Stars](https://img.shields.io/github/stars/trevorpfiz/scribeHC?style=social&color=white)](https://github.com/trevorpfiz/scribeHC/stargazers) | Open-source AI ambient scribe app for healthcare that records patient-doctor conversations and automatically generates SOAP notes from transcripts. |
+| [BirgerMoell/open-medical-scribe](https://github.com/BirgerMoell/open-medical-scribe) | [![Stars](https://img.shields.io/github/stars/BirgerMoell/open-medical-scribe?style=social&color=white)](https://github.com/BirgerMoell/open-medical-scribe/stargazers) | Modular, privacy-first medical scribe with pluggable providers for transcription (Whisper, Deepgram) and note generation (OpenAI, Anthropic, Ollama). Supports SOAP, H&P, DAP notes. |
+| [phairlab/berta-ai-scribe](https://github.com/phairlab/berta-ai-scribe) | [![Stars](https://img.shields.io/github/stars/phairlab/berta-ai-scribe?style=social&color=white)](https://github.com/phairlab/berta-ai-scribe/stargazers) | Open-source modular platform for AI-enabled clinical documentation, successfully deployed at provincial scale with significant cost reduction versus commercial tools. |
+| [ClinicianFOCUS/FreeScribe](https://github.com/ClinicianFOCUS/FreeScribe) | [![Stars](https://img.shields.io/github/stars/ClinicianFOCUS/FreeScribe?style=social&color=white)](https://github.com/ClinicianFOCUS/FreeScribe/stargazers) | Medical scribe capable of creating SOAP notes running Whisper and Kobold based on conversation with a patient. Fork of 1984Doc/AI-Scribe. |
+| [hutchpd/AI-Medical-Scribe](https://github.com/hutchpd/AI-Medical-Scribe) | [![Stars](https://img.shields.io/github/stars/hutchpd/AI-Medical-Scribe?style=social&color=white)](https://github.com/hutchpd/AI-Medical-Scribe/stargazers) | Browser-based prototype for live consultation transcription, on-device summarisation, document drafting, structured extraction, and FHIR export. |
+| [lukehollis/open-healthcare-ai-scribe](https://github.com/lukehollis/open-healthcare-ai-scribe) | [![Stars](https://img.shields.io/github/stars/lukehollis/open-healthcare-ai-scribe?style=social&color=white)](https://github.com/lukehollis/open-healthcare-ai-scribe/stargazers) | Open-source healthcare AI scribe for real-time medical documentation and clinical templates across text and voice. |
+| [NVIDIA-AI-Blueprints/ambient-provider](https://github.com/NVIDIA-AI-Blueprints/ambient-provider) | [![Stars](https://img.shields.io/github/stars/NVIDIA-AI-Blueprints/ambient-provider?style=social&color=white)](https://github.com/NVIDIA-AI-Blueprints/ambient-provider/stargazers) | NVIDIA reference blueprint for building ambient AI provider documentation workflows using local or cloud speech-to-text and LLM pipelines. |
+| [iupui-soic/openemr-ai](https://github.com/iupui-soic/openemr-ai) | [![Stars](https://img.shields.io/github/stars/iupui-soic/openemr-ai?style=social&color=white)](https://github.com/iupui-soic/openemr-ai/stargazers) | Artificial intelligence tooling for OpenEMR focused on ambient listening, note summarization, and automated coding with FHIR write-back. |
+| [AAC-Open-Source-Pool/AI-MEDICAL-SCRIBE](https://github.com/AAC-Open-Source-Pool/AI-MEDICAL-SCRIBE) | [![Stars](https://img.shields.io/github/stars/AAC-Open-Source-Pool/AI-MEDICAL-SCRIBE?style=social&color=white)](https://github.com/AAC-Open-Source-Pool/AI-MEDICAL-SCRIBE/stargazers) | Intelligent Python-based application designed to automate clinical documentation using advanced speech recognition and natural language processing. |
 
-- **[Open Medical Scribe](https://github.com/BirgerMoell/open-medical-scribe)**  
-  Modular, privacy-first open-source medical scribe supporting pluggable transcription (Whisper, etc.) and LLM providers, including fully local operation.
+### Additional Strong Open-Source Components
+- **ASR Engines**: [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper), [whisper.cpp](https://github.com/ggerganov/whisper.cpp), and other high-performance open ASR engines fine-tuned or prompted for clinical audio.
+- **Medical NLP**: Open medical LLMs and RAG pipelines over clinical guidelines or local knowledge bases.
+- **EHR Integration**: FHIR clients and SMART-on-FHIR apps that enable secure note write-back into open or commercial EHRs.
+- **Note Templates**: Template engines and prompt libraries specifically designed for SOAP, H&P, and progress notes.
+- **Recording Front-Ends**: Desktop and mobile recording front-ends that keep audio processing under user control.
 
-- **[Berta AI Scribe](https://github.com/phairlab/berta-ai-scribe)**  
-  Open-source modular platform for AI-enabled clinical documentation, successfully deployed at provincial scale with significant cost reduction versus commercial tools.
-
-- **[OpenScribe](https://github.com/sammargolis/OpenScribe)**  
-  Open-source AI scribe that records patient encounters and generates structured clinical notes with local-first storage and no vendor lock-in.
-
-- **[OpenEMR-AI](https://github.com/iupui-soic/openemr-ai)**  
-  Artificial intelligence tooling for OpenEMR focused on ambient listening, note summarization, and automated coding with FHIR write-back.
-
-- **[Caduceus / open-healthcare-ai-scribe](https://github.com/lukehollis/open-healthcare-ai-scribe)**  
-  Open-source healthcare AI scribe for real-time medical documentation and clinical templates across text and voice.
-
-- **[AI Ambient Scribe projects (FHIR/EHR-integrated)](https://github.com/)**  
-  Community efforts that transcribe encounters, structure notes with LLMs, and write results back to EHRs via FHIR while emphasizing GDPR/HIPAA considerations.
-
-- **[Specialty and bilingual note generators](https://github.com/)**  
-  Open projects focused on structured outputs for specific specialties or bilingual (e.g., English/Spanish) clinical documentation.
-
-- **[Whisper + local LLM pipelines](https://github.com/)**  
-  Reusable open-source stacks combining on-device or self-hosted speech-to-text with local or private LLMs for note generation.
-
-### Additional Strong Open-Source Options
-- Faster-Whisper, whisper.cpp, and other high-performance open ASR engines fine-tuned or prompted for clinical audio.
-- Open medical LLMs and RAG pipelines over clinical guidelines or local knowledge bases.
-- FHIR clients and SMART-on-FHIR apps that enable secure note write-back into open or commercial EHRs.
-- Template engines and prompt libraries specifically designed for SOAP, H&P, and progress notes.
-- Desktop and mobile recording front-ends that keep audio processing under user control.
-
-**Frameworks for building custom systems**: Capture audio locally or via a controlled stream, transcribe with **Whisper**-family models (on-device or private cloud), structure the transcript into clinical notes using a local or private LLM (optionally with RAG over specialty templates), present a review UI, and write approved notes back via FHIR or direct EHR integration. Projects such as **Phlox**, **Open Medical Scribe**, and **Berta** provide ready starting points. Prioritize audit logging, consent capture, and data minimization for compliance.
+**Frameworks for building custom systems**: Capture audio locally or via a controlled stream, transcribe with **Whisper**-family models (on-device or private cloud), structure the transcript into clinical notes using a local or private LLM (optionally with RAG over specialty templates), present a review UI, and write approved notes back via FHIR or direct EHR integration. Projects such as **OpenScribe**, **Phlox**, and **Open Medical Scribe** provide ready starting points. Prioritize audit logging, consent capture, and data minimization for compliance.
 
 ## How to Contribute
 1. Fork the repo.
