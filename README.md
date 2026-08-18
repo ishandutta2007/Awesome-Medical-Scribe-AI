@@ -64,7 +64,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## 💻 Open-Source GitHub Projects
 
-| Repository | ⭐ Stars | Description |
+| Repository | ⭐ Github_Stars | Description |
 |---|---|---|
 | [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed) | [![Stars](https://img.shields.io/github/stars/maziyarpanahi/openmed?style=social&color=white)](https://github.com/maziyarpanahi/openmed/stargazers) | Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. 2,200+ medical models, 21 clinical NLP tasks. |
 | [stenolabs/stenoai](https://github.com/stenolabs/stenoai) | [![Stars](https://img.shields.io/github/stars/stenolabs/stenoai?style=social&color=white)](https://github.com/stenolabs/stenoai/stargazers) | Privacy-first AI notepad for confidential conversations. Records, transcribes, summarizes, and queries meetings using local AI models. Useful for clinical encounters. |
