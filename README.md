@@ -1,6 +1,6 @@
 # Awesome-Medical-Scribe-AI
 
-# Top Medical Scribe AI Platforms Ecosystem
+## Top Medical Scribe AI Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Ambient Clinical Documentation, Real-Time Transcription, SOAP/Progress Note Generation, EHR Integration & Physician Workflow Automation*
 **Last updated: August 2026**
