@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280">
+  <defs>
+    <!-- Gradient background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="50%" style="stop-color:#302b63"/>
+      <stop offset="100%" style="stop-color:#24243e"/>
+    </linearGradient>
+    <!-- Gradient for heartbeat line -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d2ff">
+        <animate attributeName="stop-color" values="#00d2ff;#7b2ff7;#00d2ff" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#7b2ff7">
+        <animate attributeName="stop-color" values="#7b2ff7;#00d2ff;#7b2ff7" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#00d2ff">
+        <animate attributeName="stop-color" values="#00d2ff;#7b2ff7;#00d2ff" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Pulse ring animation -->
+    <radialGradient id="pulseGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00d2ff;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#00d2ff;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" rx="12" fill="url(#bgGrad)"/>
+
+  <!-- Animated floating particles -->
+  <circle cx="80" cy="40" r="2" fill="#00d2ff" opacity="0.5">
+    <animate attributeName="cy" values="40;240;40" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="200" r="1.5" fill="#7b2ff7" opacity="0.4">
+    <animate attributeName="cy" values="200;30;200" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="60" r="2.5" fill="#00d2ff" opacity="0.3">
+    <animate attributeName="cy" values="60;220;60" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="550" cy="180" r="1.8" fill="#7b2ff7" opacity="0.5">
+    <animate attributeName="cy" values="180;50;180" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="100" r="2" fill="#00d2ff" opacity="0.4">
+    <animate attributeName="cy" values="100;230;100" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="220" r="1.5" fill="#7b2ff7" opacity="0.3">
+    <animate attributeName="cy" values="220;40;220" dur="7.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ECG / Heartbeat line with animation -->
+  <polyline points="0,160 120,160 140,160 155,160 165,130 175,190 185,100 195,200 205,140 215,160 230,160 300,160 320,160 335,160 345,130 355,190 365,100 375,200 385,140 395,160 410,160 500,160 520,160 535,160 545,130 555,190 565,100 575,200 585,140 595,160 610,160 700,160 720,160 735,160 745,130 755,190 765,100 775,200 785,140 795,160 810,160 900,160"
+            fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="1800" to="0" dur="4s" repeatCount="indefinite"/>
+  </polyline>
+  <!-- Duplicate for trailing glow effect -->
+  <polyline points="0,160 120,160 140,160 155,160 165,130 175,190 185,100 195,200 205,140 215,160 230,160 300,160 320,160 335,160 345,130 355,190 365,100 375,200 385,140 395,160 410,160 500,160 520,160 535,160 545,130 555,190 565,100 575,200 585,140 595,160 610,160 700,160 720,160 735,160 745,130 755,190 765,100 775,200 785,140 795,160 810,160 900,160"
+            fill="none" stroke="url(#lineGrad)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3">
+    <animate attributeName="stroke-dashoffset" from="1800" to="0" dur="4s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- Pulsing medical cross icon -->
+  <g transform="translate(450, 75)" opacity="0.15">
+    <rect x="-15" y="-5" width="30" height="10" rx="2" fill="#00d2ff">
+      <animate attributeName="opacity" values="0.15;0.35;0.15" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-5" y="-15" width="10" height="30" rx="2" fill="#00d2ff">
+      <animate attributeName="opacity" values="0.15;0.35;0.15" dur="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Title text -->
+  <text x="450" y="80" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="42" font-weight="800" fill="white" letter-spacing="1">
+    Awesome Medical Scribe AI
+    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="118" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" fill="#a8b2d1" letter-spacing="3">
+    AMBIENT CLINICAL DOCUMENTATION  ·  REAL-TIME TRANSCRIPTION  ·  AI-POWERED NOTES
+    <animate attributeName="opacity" values="0;0.8" dur="1.5s" fill="freeze"/>
+  </text>
+
+  <!-- Tagline -->
+  <text x="450" y="250" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#8892b0" letter-spacing="1">
+    SaaS Platforms  ·  Open-Source Projects  ·  EHR Integration  ·  Clinician Workflow Automation
+    <animate attributeName="opacity" values="0;0.6" dur="2s" fill="freeze"/>
+  </text>
+
+  <!-- Animated scanning line -->
+  <line x1="0" y1="0" x2="0" y2="280" stroke="#00d2ff" stroke-width="1" opacity="0.08">
+    <animate attributeName="x1" from="0" to="900" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x2" from="0" to="900" dur="5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Corner accents -->
+  <path d="M20,20 L40,20 M20,20 L20,40" stroke="#00d2ff" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M880,20 L860,20 M880,20 L880,40" stroke="#7b2ff7" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M20,260 L40,260 M20,260 L20,240" stroke="#7b2ff7" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M880,260 L860,260 M880,260 L880,240" stroke="#00d2ff" stroke-width="2" fill="none" opacity="0.4"/>
+</svg>
