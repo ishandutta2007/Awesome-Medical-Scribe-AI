@@ -112,6 +112,12 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ---
 
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Medical-Scribe-AI&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Medical-Scribe-AI&type=date&legend=top-left)
+
+---
+
 <p align="center">
   <strong>🩺 Made for clinicians, health-system IT teams, and open-source health-tech developers. 🚀</strong><br/>
   Let's make high-quality clinical documentation more accessible, private, and clinician-controlled.
